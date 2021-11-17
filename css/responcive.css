@@ -1,0 +1,118 @@
+
+@media (min-width: 2000px){
+   .container{
+    max-width: 2000px;
+   }
+}
+
+@media (max-width: 1199.98px) { 
+    .grid_wrap{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "i i black_1 black_1 black_1 black_1 black_1"
+        "i i black_2 black_2 work work work"
+        "black_3 black_3 black_3 black_3 work work work"
+        "black_4 hobby black_5 black_5 black_5 black_5 black_5"  
+        "black_4 hobby black_5 black_5 black_5 black_5 black_5"  
+        "black_4 hobby black_5 black_5 black_5 black_5 black_5"
+        "black_6 black_6 black_6 black_6 err err err"  ; 
+    } 
+
+    .my_btn{
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .grid_wrap{
+        grid-row-gap: 10px; 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr;
+        grid-template-areas: 
+        "i i work work"
+        "i i work work"
+        "black_3 black_3 black_3 black_3"
+        "hobby hobby err err"  
+        "hobby hobby err err" ; 
+    }
+
+    #i, #hobby{
+        margin-right: 5px;
+    }
+
+    #work, #err{
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .grid_wrap{
+        grid-row-gap: 10px; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "i work"
+        "i work"
+        "hobby hobby"  
+        "err err" ; 
+    }
+
+    #hobby{
+        margin-right: 0;
+    }
+
+    #err{
+        margin-left: 0;
+    }
+} 
+
+@media (max-width: 575.98px) { 
+
+    .header {
+        padding-right: 2em;
+    }
+    .languages {
+        padding-right: 10px;
+    }
+
+    .grid_wrap{
+        padding-top: 10px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "i"
+        "work"
+        "hobby"  
+        "err" ; 
+    }
+
+    #i{
+        margin-right: 0;
+    }
+
+    #work{
+        margin-left: 0;
+    }
+
+    .works_liste_item {
+        padding-right: 0px;
+    }
+
+    .works_deskription{
+        font-size: 18px;
+    }
+
+    .my_btn{
+        font-size: 40px;
+    }
+
+    .close {
+        width: 50px;
+        height: 50px;
+        top: 18px;
+        right: 18px;
+    }
+}
