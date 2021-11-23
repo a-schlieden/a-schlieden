@@ -26,6 +26,7 @@ li{
 
 .grid-wrap{
     display: grid;
+    min-height: 645px;
     height: calc(100vh - 115px);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
