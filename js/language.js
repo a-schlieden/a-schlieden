@@ -9,7 +9,7 @@ const languageArr = {
     "i": {
         "ru": "Я",
         "en": "I am",
-        "de": "Ich bin",
+        "de": "Über mich",
     },
     "hobby": {
         "ru": "Хобби",
@@ -19,7 +19,7 @@ const languageArr = {
     "work": {
         "ru": "Мои работы",
         "en": "My works",
-        "de": "Meine Arbeiten",
+        "de": "Bisherige projekte",
     },
     "skills": {
         "ru": "Навыки",
