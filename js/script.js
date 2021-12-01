@@ -106,21 +106,12 @@ let hoverImages = document.querySelectorAll('.works-liste-item');
 
 for (let i = 0; i < hoverImages.length; i++) {
     hoverImages[i].onmouseenter = () => {
-        //hoverImages[i].classList.add("works-img-aktive");
-        // hoverImages[i].previousElementSibling.classList.add("works-skill-aktive");
+
         hoverImages[i].children[1].style.display = "block"
-        // hoverImages[i].nextElementSibling.classList.add("works-deskription-active");
-        // console.log("next");
-        // console.log(hoverImages[i].nextElementSibling);
-        // console.log("prev");
-        // console.log(hoverImages[i].previousElementSibling);
+
     }
     hoverImages[i].onmouseleave = () => {
-        //hoverImages[i].classList.remove("works-img-aktive");
-        // hoverImages[i].previousElementSibling.classList.remove("works-skill-aktive");
-        //hoverImages[i].nextElementSibling.style.display = "none"
         hoverImages[i].children[1].style.display = "none"
-        // hoverImages[i].nextElementSibling.classList.remove("works-deskription-active");
     }
 }
 
