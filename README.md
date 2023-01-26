@@ -1,4 +1,4 @@
-<h1 align="center">My name is <a href="https://alenkanahorna.github.io/Resume/" target="_blank">Alexander Schlieden</a> </h1> 🇺🇦
+<h1 align="center">My name is <a href="https://alenkanahorna.github.io/Resume/" target="_blank">Alexander Schlieden</a>🇺🇦</h1> 
 
 <div>
         <ul>
