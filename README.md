@@ -2,7 +2,7 @@
 
 <div>
         <ul>
-            <li>📖 I am an beginner front-end developer. I like to study and would like to apply my knowledge to new projects and become part of a good team</li>
+            <li>📖 I am front-end developer. I like to study and would like to apply my knowledge to new projects and become part of a good team</li>
             <li>🌍 Leipzig, Germany</li>
             <li>🧑🏻‍💻 C2Media - web developer</li>
             <li>🎓 GoIT </li>
